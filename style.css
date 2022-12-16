@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+	margin: 20px;
+}
+
+.container {
+	width: 65vh;
+	height: 65vh;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 2px;
+	display: grid;
+	grid-template: repeat(25, 1fr) / repeat(25, 1fr);
+}
+
+.block {
+	width: 1fr;
+	height: 1fr;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.reset-button {
+	display: block;
+	max-width: 80px;
+	margin: 5px auto;
+}
+
+.color-box {
+	display:flex;
+	justify-content:center;
+}
